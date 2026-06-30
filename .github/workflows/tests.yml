@@ -16,7 +16,7 @@ jobs:
 
     env:
       NODE_ENV: test
-      PORT: 3000
+      PORT: 3001
       DATABASE_URL: postgresql://test:test@localhost/test
       JWT_SECRET: test_jwt_secret_at_least_16chars
       JWT_EXPIRATION: 15m
