@@ -2,9 +2,9 @@ name: CI — Testes Unitários e Integração
 
 on:
   push:
-    branches: [main, develop]
+    branches: [main, develop, chore/setup]
   pull_request:
-    branches: [main, develop]
+    branches: [main, develop, chore/setup]
 
 jobs:
   # ─────────────────────────────────────────────────────────────
